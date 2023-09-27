@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GoogleTestsSuite">
+    <test name="GoogleTests">
+        <groups>
+           <run>
+               <include name="googleGroup1"></include>
+           </run>
+        </groups>
+        <classes>
+            <class name="tests.GoogleTest"></class>
+            <class name="tests.EtsyCheckoutTest"></class>
+        </classes>
+    </test>
+</suite>
